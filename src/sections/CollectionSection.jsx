@@ -32,7 +32,7 @@ export default function CollectionSection() {
                         transition={{ duration: 1.5, delay: idx * 0.2, ease: [0.16, 1, 0.3, 1] }}
                     >
                         <motion.img
-                            src={perfume.image}
+                            src={`${import.meta.env.BASE_URL}${perfume.image}`}
                             alt={perfume.name}
                             initial={{ opacity: 0, scale: 0.9 }}
                             whileInView={{ opacity: 1, scale: 1 }}

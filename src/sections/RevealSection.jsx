@@ -49,7 +49,7 @@ export default function RevealSection() {
                         style={{ height: '100%', y: panelY, opacity: panelO }}
                     >
                         <img
-                            src="images/luxury_banner.png"
+                            src={`${import.meta.env.BASE_URL}images/luxury_banner.png`}
                             alt="AZWAZ Collection Detail"
                             className="panel-right-image"
                         />
