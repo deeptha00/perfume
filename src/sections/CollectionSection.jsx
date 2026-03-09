@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 
 const perfumes = [
-    { id: 1, name: 'NOIR', category: 'Night Mist', price: '$225', image: '/images/luxury_product1.png' },
-    { id: 2, name: 'AURORA', category: 'Dawn Light', price: '$285', image: '/images/luxury_product2.png' },
-    { id: 3, name: 'SAGE', category: 'Forest Dew', price: '$195', image: '/images/luxury_product3.png' },
+    { id: 1, name: 'NOIR', category: 'Night Mist', price: '$225', image: 'images/luxury_product1.png' },
+    { id: 2, name: 'AURORA', category: 'Dawn Light', price: '$285', image: 'images/luxury_product2.png' },
+    { id: 3, name: 'SAGE', category: 'Forest Dew', price: '$195', image: 'images/luxury_product3.png' },
 ];
 
 export default function CollectionSection() {

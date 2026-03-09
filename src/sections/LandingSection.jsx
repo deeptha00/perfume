@@ -18,7 +18,7 @@ export default function LandingSection() {
                 style={{ position: 'absolute', inset: 0, scale: imgScale, y: imgY }}
             >
                 <img
-                    src="/images/banner.png"
+                    src="images/banner.png"
                     alt="ETHEREAL Luxury"
                     style={{
                         width: '100%',
