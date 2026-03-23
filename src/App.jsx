@@ -7,6 +7,7 @@ import TestimonialSection from './sections/TestimonialSection';
 import NewsletterSection from './sections/NewsletterSection';
 import Navigation from './components/Navigation';
 import DetailedFooter from './components/DetailedFooter';
+import VFXLayer from './components/VFXLayer';
 import './App.css';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             </AnimatePresence>
 
             <Navigation />
+            <VFXLayer />
 
             <main>
                 <LandingSection />
