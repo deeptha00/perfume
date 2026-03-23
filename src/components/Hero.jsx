@@ -42,7 +42,7 @@ const Hero = () => {
                 }}
             >
                 <img
-                    src="/images/banner.png"
+                    src={`${import.meta.env.BASE_URL}images/banner.png`}
                     alt="Luxury Perfume Banner"
                     style={{
                         width: '100%',

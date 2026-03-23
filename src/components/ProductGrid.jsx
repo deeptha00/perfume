@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 
 const products = [
-    { id: 1, name: 'MIRAGE', category: 'Celestial Mist', price: '$345.00', image: '/images/luxury_product1.png' },
-    { id: 2, name: 'ONYX', category: 'After Dark', price: '$375.00', image: '/images/luxury_product2.png' },
-    { id: 3, name: 'AMBER', category: 'Sunset Gold', price: '$410.00', image: '/images/luxury_product3.png' },
+    { id: 1, name: 'MIRAGE', category: 'Celestial Mist', price: '$345.00', image: 'images/luxury_product1.png' },
+    { id: 2, name: 'ONYX', category: 'After Dark', price: '$375.00', image: 'images/luxury_product2.png' },
+    { id: 3, name: 'AMBER', category: 'Sunset Gold', price: '$410.00', image: 'images/luxury_product3.png' },
 ];
 
 const ProductGrid = () => {
@@ -37,7 +37,7 @@ const ProductGrid = () => {
                         }}
                     >
                         <motion.img
-                            src={product.image}
+                            src={`${import.meta.env.BASE_URL}${product.image}`}
                             alt={product.name}
                             style={{
                                 position: 'absolute',
